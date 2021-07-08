@@ -1,7 +1,7 @@
 :root{
     --bg: #181818;
     --bg-msg-left: #192634;
-    --bg-ms-right: #2464a4;
+    --bg-msg-right: #2464a4;
     --bg-msg: #3d3d3d;
     --bg-sidebar-chat: #232323;
     --text-color: #FFFFFF;
@@ -46,7 +46,7 @@ ul, li,a, a:hover{
 }
 .sidebarChat{
     background-color: var(--bg-sidebar-chat);
-    max-width: 400px;
+    max-width: 350px;
     width: 100%;
 }
 .messages{
@@ -73,7 +73,7 @@ ul, li,a, a:hover{
     margin-bottom: 50px;
 }
 .user h3{
-    font-size: 13px;
+    font-size: 12px;
     margin-top: 10px;
     text-align: center;
 }
@@ -123,7 +123,7 @@ input{
     border-radius: 50%;
 }
 .sidebarChat .list-user li a p{
-    font-size: 12px;
+    font-size: 11px;
 }
 .sidebarChat .list-user li a .list-data{
     margin-left: 60px;
@@ -156,4 +156,27 @@ input{
 }
 .header .options-chat i{
     margin-right: 12px;
+}
+.data{
+    width: 800;
+    margin-top: 22px;
+}
+.msg-left{
+    background-color: var(--bg-msg-left);
+    padding: 5px;
+    max-width: 50%;
+    padding: 10px;
+    border-radius: 10px;
+}
+.msg-right{
+    background-color: var(--bg-msg-right);
+    padding: 5px;
+    float: right;
+    max-width: 40%;
+    padding: 10px;
+    border-radius: 10px;
+}
+.body-msg{
+
+    margin-top: 12px;
 }

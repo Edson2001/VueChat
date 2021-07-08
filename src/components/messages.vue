@@ -20,7 +20,17 @@
         </div>
 
 
-        <div class="data"></div>
+        <div class="data">
+
+            <div class="body-msg">
+                <div class="msg-left">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</div>
+            </div>
+
+            <div class="body-msg">
+                <div class="msg-right">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquam ex</div>
+            </div>
+
+        </div>
 
         <div class="input-section">
 
