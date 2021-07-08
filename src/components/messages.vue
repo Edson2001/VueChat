@@ -19,6 +19,18 @@
             </div>
         </div>
 
+
+        <div class="data"></div>
+
+        <div class="input-section">
+
+            <input type="text" placeholder="Placeholder" />
+            <div class="ico">
+                <i class="fa fa-audio"></i>
+            </div>
+
+        </div>
+
     </div>
    
 
