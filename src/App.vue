@@ -3,7 +3,7 @@
   <div class="container">
 
     <sidebar></sidebar>
-    <sidebar-chat></sidebar-chat>
+    <sidebar-chat ></sidebar-chat>
     <messages></messages>
 
   </div>
