@@ -119,3 +119,7 @@ input{
 .sidebarChat .list-user li a p{
     font-size: 12px;
 }
+.sidebarChat .list-user li a .list-data{
+    margin-left: 60px;
+    font-size: 14px;
+}
