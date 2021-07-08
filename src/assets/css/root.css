@@ -7,7 +7,7 @@
     --text-color: #FFFFFF;
     --text-color-alter: #3d3d3d;
 }
-@import url('https://fonts.googleapis.com/css2?family=Encode+Sans+SC:wght@300;400&family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300&family=Source+Sans+Pro:wght@300&display=swap');
 
 *{
     padding: 0;
@@ -31,8 +31,7 @@ ul, li,a, a:hover{
 .container{
  
     color: var(--text-color);
-    font-family: 'Encode Sans SC', sans-serif;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Noto Sans KR', sans-serif;
     display: flex;
    
 }
@@ -54,6 +53,7 @@ ul, li,a, a:hover{
     background-color: var(--bg-msg);
     max-width: 890px;
     width: 100%;
+    padding: 20px;
 }
 
 .user .settings-options{
@@ -109,12 +109,18 @@ input{
 .sidebarChat .list-user{
     margin-top: 22px;
 }
+.sidebarChat .list-user li{
+    margin-bottom: 32px;
+}
 .sidebarChat .list-user li a{
     display: flex;
     align-items: center;
 }
 .sidebarChat .list-user li a img{
     margin-right: 22px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
 }
 .sidebarChat .list-user li a p{
     font-size: 12px;
@@ -122,4 +128,32 @@ input{
 .sidebarChat .list-user li a .list-data{
     margin-left: 60px;
     font-size: 14px;
+}
+.header{
+    border-bottom: 1px solid #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header img{
+    width: 60px ;
+    height: 60px;
+    border-radius: 50%;
+}
+.header .user-d{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+.header .user-info{
+    margin-left: 12px;
+}
+.header .user-info p{
+    font-size: 12px;
+}
+.header .options-chat{
+    display: flex;
+}
+.header .options-chat i{
+    margin-right: 12px;
 }

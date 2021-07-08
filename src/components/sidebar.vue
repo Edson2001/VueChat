@@ -2,7 +2,7 @@
     
     <div class="user">
 
-        <img src="https://www.pavilionweb.com/wp-content/uploads/2017/03/man-300x300.png" alt="">
+        <img src="https://assets.entrepreneur.com/content/3x2/2000/20190502194704-ent19-june-editorsnote.jpeg" alt="">
         <h3>Edson Dos Santos Bandola</h3>
 
         <ul class="user-options">
