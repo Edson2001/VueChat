@@ -9,6 +9,12 @@
 body{
     background-color: var(--bg);
 }
+ul, li,a, a:hover{
+    text-decoration: none;
+    list-style: none;
+}
 .container{
     width: 100%;
+    color: var(--text-color);
+    font-family: 'Roboto';
 }
