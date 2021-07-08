@@ -111,4 +111,11 @@ input{
 }
 .sidebarChat .list-user li a{
     display: flex;
+    align-items: center;
+}
+.sidebarChat .list-user li a img{
+    margin-right: 22px;
+}
+.sidebarChat .list-user li a p{
+    font-size: 12px;
 }

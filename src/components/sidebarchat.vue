@@ -19,8 +19,8 @@
             <a href="">
                 <img src="https://franklininfo.net/images/icons/man-beard.png" alt="">
                 <div class="user-details">
-                    <h6 class="user-name">Júnior Andrade</h6>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                    <h4 class="user-name">Júnior Andrade</h4>
+                    <p>{{message.substring(0, 30)}}...</p>
                 </div>
                 <div class="list-data">
                     <span>22:50 PM</span>
@@ -34,7 +34,14 @@
 </template>
 
 <script>
+import {ref} from "vue"
 export default {
     
+    setup(){
+        const message = ref("Lorem ipsum dolor sit amet, consectetur adipisicing elit.")
+        return {message}
+
+    }
+
 }
 </script>
