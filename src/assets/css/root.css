@@ -5,6 +5,7 @@
     --bg-msg: #3d3d3d;
     --bg-sidebar-chat: #232323;
     --text-color: #FFFFFF;
+    --text-color-alter: #3d3d3d;
 }
 @import url('https://fonts.googleapis.com/css2?family=Encode+Sans+SC:wght@300;400&family=Open+Sans&display=swap');
 
@@ -21,8 +22,8 @@ ul, li,a, a:hover{
     color: var(--text-color);
 }
 .user img{
-    width: 100px;
-    height: 100px;
+    width: 90px;
+    height: 90px;
     border-radius: 50%;
     margin-top: 62px;
     border: 2px solid #373737;
@@ -46,12 +47,12 @@ ul, li,a, a:hover{
 }
 .sidebarChat{
     background-color: var(--bg-sidebar-chat);
-    max-width: 490px;
+    max-width: 400px;
     width: 100%;
 }
 .messages{
     background-color: var(--bg-msg);
-    max-width: 860px;
+    max-width: 890px;
     width: 100%;
 }
 
@@ -75,4 +76,39 @@ ul, li,a, a:hover{
     font-size: 13px;
     margin-top: 10px;
     text-align: center;
+}
+.sidebarChat img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+.sidebarChat{
+    padding: 30px;
+}
+.sidebarChat .options{
+    display: flex;
+    justify-content: space-between;
+}
+input{
+    background-color: var(--text-color-alter);
+    border: none;
+    width: 100%;
+}
+.sidebarChat input{
+    border-radius: 5px;
+    padding: 10px;
+}
+.sidebarChat .search-options{
+    margin-top: 22px;
+}
+.sidebarChat .search-options i{
+    position: absolute;
+    margin-top: -26px;
+    margin-left: 392px;
+}
+.sidebarChat .list-user{
+    margin-top: 22px;
+}
+.sidebarChat .list-user li a{
+    display: flex;
 }
