@@ -1,0 +1,14 @@
+:root{
+    --bg: #181818;
+    --bg-msg-left: #192634;
+    --bg-ms-right: #2464a4;
+    --bg-msg: #3d3d3d;
+    --bg-sidebar-chat: #3d3d3d;
+    --text-color: #FFFFFF;
+}
+body{
+    background-color: var(--bg);
+}
+.container{
+    width: 100%;
+}
