@@ -22,13 +22,13 @@
 
         <ul class="settings-options">
             <li>
-                <a href="">Settings</a>
+                <a href=""><i class="fa fa-cog" /> Settings</a>
             </li>
             <li>
-                <a href="">Profile</a>
+                <a href=""><i class="fa fa-user" /> Profile</a>
             </li>
             <li>
-                <a href="">Logout</a>
+                <a href=""><i class="fa fa-sign-out" /> Logout</a>
             </li>
         </ul>
 
